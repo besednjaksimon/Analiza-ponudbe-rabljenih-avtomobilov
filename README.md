@@ -24,8 +24,10 @@ https://www.avto.net/Ads/results.asp?znamka=&model=&modelID=&tip=&znamka2=&model
   * Kakšen delež avtomobilov z avtomatskim menjalnikom se prodaja? A je ta delež skozi leta narastel?
   * Ali lahko samo z imenom znamke in letnikom avtomobila okvirno ocenimo njegovo ceno? Ali potrebujemo še kakšen dodaten podatek?
 
-## Pridobljeni podatki
-  * V mapi `obdelani-podatki` se nahajajo podatki tako v `csv` kot tudi v `json` formatu.
+## Datoteke in pridobljeni podatki
+  * Datoteka `orodja.py` vsebuje pomožne funkcije za shranjevanje podatkov s spletnih strani.
+  * Z datoteko `zajem.py` sem zajel spletne strani in jih shranil v mapo `zajeti-podatki`, iz shranjenih strani sem izluščil potrebne podatke in jih zapisal tako v `csv` kot tudi v `json` formatu.
+  * Ti dve datoteki (`avtomobili.csv` oz. `avtomobili.json`) se nahajata v mapi `obdelani-podatki`.
   * Vsakemu avtomobilu pripada: 
     * identifikacijska številka, 
     * znamka, 
