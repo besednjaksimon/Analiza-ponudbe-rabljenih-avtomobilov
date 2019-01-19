@@ -28,6 +28,8 @@ https://www.avto.net/Ads/results.asp?znamka=&model=&modelID=&tip=&znamka2=&model
   * Datoteka `orodja.py` vsebuje pomožne funkcije za shranjevanje podatkov s spletnih strani.
   * Z datoteko `zajem.py` sem zajel spletne strani in jih shranil v mapo `zajeti-podatki`, iz shranjenih strani sem izluščil potrebne podatke in jih zapisal tako v `csv` kot tudi v `json` formatu.
   * Ti dve datoteki (`avtomobili.csv` oz. `avtomobili.json`) se nahajata v mapi `obdelani-podatki`.
+  * Pri datoteki `avtomobili.csv` sem znak "è" zamenjal s "č" in malenkostno spremenil imena kategorij. Vse te spremembe sem shranil v datoteki `avtomobili_pravi.csv`, ki sem jo nato uporabil pri analizi.
+  * Analiza se nahaja v datoteki `analiza_avtomobilov.ipynb`.
   * Vsakemu avtomobilu pripada: 
     * identifikacijska številka, 
     * znamka, 
